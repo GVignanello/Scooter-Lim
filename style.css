@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: "Poppin", sans-serif; 
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+/* header */
+header, nav{
+    text-align: center;
+}
+
+header>img {
+    width: 230px;
+    margin-top: 60px;
+}
+
+header>h2 {
+    color: #00dd00;
+    margin-bottom: 5px;
+}
+
+/* nav */
+nav{
+    background-color: #00dd00;
+    margin: auto 8%;
+}
+
+nav > button {
+    margin: 10px auto;
+    padding: 1px 5px; 
+}
+
+/* main */
+main{
+    padding: 0 8%;
+    margin-top: 20px;
+
+}
+
+section {
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+main h2 {
+    display: inline-block;
+}
+
+/* Charge bars */
+.charge_bar {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.medium {
+    background-color: rgba(245,180,83,255);
+    width: 40%;
+}
+
+.high {
+    background-color: rgba(30,195,30,255);
+    width: 60%;
+}
+
+.low {
+    background-color: rgba(190,65,65,255);
+    width: 15%
+}
